@@ -1,0 +1,72 @@
+<!----------
+TITLE: Movers & Shakers
+AUTHOR: Harmanjot Singh (HS)
+PURPOSE: Movers & Shakers Assignment
+ORIGINALLY CREATED ON: 1 April 2019
+LAST MODIFIED ON: 1 April 2019
+LAST MODIFIED BY: Harmanjot Singh (HS)
+MODIFICATION HISTORY: Original Build
+---------->
+
+<!-- Tested in Google Chrome, Safari and Firefox -->
+<!-- Didn't saw any difference. Everything was about the same in all browsers -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">  
+    <title>Movers & Shakers</title>
+
+    <link rel="stylesheet" href="movshakersbb.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <section class="side-one">
+        <h1>Movers & Shakers Challenge</h1>
+        <div id="controls">
+            <fieldset class="move-right">
+                <legend>Image</legend>
+                <button type="button" class="button buttonType1" id="buttonShow">Show</button><br>
+                <button type="button" class="button buttonType1" id="buttonHide">Hide</button><br>
+                <button type="button" class="button buttonType1" id="buttonToggle">Toggle</button><br>
+            </fieldset>
+    
+            <fieldset class="move">
+                <legend>Slide</legend>
+                <button type="button" class="button buttonType2" id="buttonSlideUp">Slide Up</button><br>
+                <button type="button" class="button buttonType2" id="buttonSlideDown">Slide Down</button><br>
+            </fieldset>
+    
+            <fieldset class="move">
+                <legend>Fade</legend>
+                <button type="button" class="button buttonType3" id="buttonFadeIn">Fade In</button><br>
+                <button type="button" class="button buttonType3" id="buttonFadeOut">Fade Out</button><br>
+            </fieldset>
+    
+            <fieldset class="move">
+                <legend>Movement</legend>
+                <button type="button" class="button buttonType4" id="buttonLeft">Left</button><br>
+                <button type="button" class="button buttonType4" id="buttonRight">Right</button><br>
+                <button type="button" class="button buttonType4" id="buttonNudgeLeft">Nudge Left</button><br>
+                <button type="button" class="button buttonType4" id="buttonNudgeRight">Nudge Right</button><br>
+                <button type="button" class="button buttonType4" id="buttonTop">Top</button><br>
+                <button type="button" class="button buttonType4" id="buttonBottom">Bottom</button><br>
+                <button type="button" class="button buttonType4" id="buttonGlide">Glide</button><br>
+                <button type="button" class="button buttonType4" id="buttonShake">Shake</button><br>
+                <button type="button" class="button" id="buttonReset">Reset</button><br>
+            </fieldset>
+        </div>
+    </section>
+    <section class="side-two">
+        <img id="battle-ship" alt="Beautiful Ship" src="otherShip.png">
+    </section>
+    <a href="/index.html" class="previous">Course Page</a>
+
+    <script src="movshakersbb.js"></script>
+</body>
+</html>
